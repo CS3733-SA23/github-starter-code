@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import io.github.palexdev.materialfx.controls.MFXButton?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+
+
+<BorderPane xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.wpi.teamname.controllers.AppController">
+   <center>
+      <AnchorPane prefHeight="400.0" prefWidth="600.0">
+         <children>
+            <MFXButton fx:id="buttonHello" layoutX="268.0" layoutY="186.0" onAction="#navigate" text="Navigate" />
+         </children>
+      </AnchorPane>
+   </center>
+   <left>
+      <VBox prefHeight="200.0" prefWidth="100.0" style="-fx-background-color: ffccee;" BorderPane.alignment="CENTER" />
+   </left>
+</BorderPane>
