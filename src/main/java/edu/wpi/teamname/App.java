@@ -32,6 +32,8 @@ public class App extends Application {
 
     App.rootPane = root;
 
+    //test
+
     final Scene scene = new Scene(root);
     primaryStage.setScene(scene);
 
